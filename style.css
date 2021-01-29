@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  color: #fff;
+  background: #db6435;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url('./images/png/dog-hero.png') no-repeat center bottom;
+  background-color: #b6e3fc;
+  height: 600px;
+  background-size: 300px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
+
+.logo {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding: 10px 15px;
+}
+
+nav li a:hover {
+  border-bottom: 3px #db6435 solid;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Products */
+.products {
+  height: 400px;
+}
+
+.products h3 {
+  text-align: center;
+  margin: 60px auto;
+  font-weight: 400;
+}
+
+.products__logo {
+  width: 20px;
+  margin-right: 15px;
+}
+
+.products__body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 25%;
+}
+
+.product div {
+  background: #cbe8f8;
+  padding: 30px;
+}
+
+.product img {
+  width: 100%;
+  position: relative;
+  bottom: 90px;
+}
