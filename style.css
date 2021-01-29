@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-/* UTILITIES */
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +66,7 @@ nav li a:hover {
 .content {
   display: flex;
   flex-direction: column;
+  color: #fff;
 }
 
 /* Products */
@@ -110,4 +110,23 @@ nav li a:hover {
   width: 100%;
   position: relative;
   bottom: 90px;
+}
+
+/* ABOUT */
+.about-conatiner {
+  margin-top: 50px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px;
+}
+
+.image-container {
+  background: url('./images/png/dog@2x.png') no-repeat center center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
