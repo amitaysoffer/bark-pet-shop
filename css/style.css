@@ -147,7 +147,7 @@ nav li a:hover {
 }
 
 .product img {
-  width: 106%;
+  width: 12rem;
   position: relative;
   bottom: 15px;
 }
@@ -194,20 +194,88 @@ nav li a:hover {
 }
 
 /* ABOUT */
-.about-conatiner {
+.about {
   margin-top: 50px;
-  height: 400px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* height: 400px; */
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.image-container {
-  background: url('./images/png/dog@2x.png') no-repeat center center;
+.about__img {
+  position: relative;
 }
 
-.about-content {
+.about__img img {
+  width: 60%;
+}
+
+.about__img:after {
+  content: '';
+  width: 259px;
+  height: 250px;
+  background-color: #b6e3fc;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  position: absolute;
+  top: 38px;
+  right: 84px;
+  z-index: -1;
+}
+
+.about__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+  font-size: 12px;
+}
+
+.about__content button {
+  margin: 0;
+  align-self: auto;
+  color: #f4f4f4;
+}
+
+.about__content p {
+  margin: 25px auto;
+  font-size: 10px;
+  color: #c7c6c6;
+}
+
+.about__content h1 {
+  font-weight: 400;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  height: 400px;
+  margin-top: 50px;
+  background-image: url('../images/png/pattern-desktop.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron__content {
+  width: 20%;
+}
+
+.jumbotron__content p {
+  font-size: 8px;
+  color: #adadad;
+}
+
+.jumbotron__content h1 {
+  font-weight: 400;
+  margin: 25px auto;
+}
+.jumbotron__logo {
+  width: 2em;
 }
