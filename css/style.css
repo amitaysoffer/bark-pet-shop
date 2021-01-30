@@ -279,3 +279,45 @@ nav li a:hover {
 .jumbotron__logo {
   width: 2em;
 }
+
+/* FOOTER */
+.footer {
+  height: 400px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 1rem;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-footer:after {
+  content: '';
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  margin-top: 60px;
+  border-bottom: #efefef 1px solid;
+}
+
+.top-footer__column a {
+  color: #adadad;
+}
+
+.top-footer__social img {
+  width: 10px;
+}
+
+.bottom-footer {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-footer__payicons img {
+  width: 30px;
+}
