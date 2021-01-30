@@ -294,10 +294,20 @@ nav li a:hover {
   justify-content: space-evenly;
 }
 
+.top-footer__logo {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.top-footer__logo img {
+  width: 15px;
+}
+
 .top-footer:after {
   content: '';
-  width: 100%;
+  width: 70%;
   height: 100px;
+  right: 0;
   position: absolute;
   margin-top: 60px;
   border-bottom: #efefef 1px solid;
