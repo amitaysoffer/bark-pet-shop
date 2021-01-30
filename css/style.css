@@ -212,6 +212,13 @@ nav li a:hover {
   width: 60%;
 }
 
+.about__img .blob {
+  position: absolute;
+  z-index: -1;
+  bottom: 115px;
+  left: 45px;
+}
+
 .about__img:after {
   content: '';
   width: 259px;
