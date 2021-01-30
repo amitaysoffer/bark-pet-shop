@@ -286,7 +286,9 @@ nav li a:hover {
   margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  padding: 1rem;
+  padding: 2rem 3rem;
+  font-size: 10px;
+  color: #adadad;
 }
 
 .top-footer {
@@ -297,6 +299,9 @@ nav li a:hover {
 .top-footer__logo {
   font-weight: 700;
   font-size: 1.3em;
+  color: #000;
+  font-size: 2em;
+  letter-spacing: -2;
 }
 
 .top-footer__logo img {
@@ -305,9 +310,9 @@ nav li a:hover {
 
 .top-footer:after {
   content: '';
-  width: 70%;
+  width: 60%;
   height: 100px;
-  right: 0;
+  right: 80px;
   position: absolute;
   margin-top: 60px;
   border-bottom: #efefef 1px solid;
@@ -315,6 +320,11 @@ nav li a:hover {
 
 .top-footer__column a {
   color: #adadad;
+}
+
+.top-footer__column li {
+  color: #adadad;
+  padding: 5px;
 }
 
 .top-footer__social img {
@@ -326,8 +336,28 @@ nav li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-left: 20px;
 }
 
 .bottom-footer__payicons img {
   width: 30px;
+}
+
+.top-footer__signup img {
+  width: 15px;
+  position: relative;
+  left: 10px;
+}
+
+.top-footer__signup p {
+  font-size: 15px;
+  color: #db6435;
+}
+
+.top-footer__social {
+  margin-top: 10px;
+}
+
+.top-footer__social img {
+  margin-right: 20px;
 }
