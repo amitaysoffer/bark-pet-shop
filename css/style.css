@@ -20,17 +20,8 @@ ul {
   list-style-type: none;
 }
 
-.btn {
-  color: #fff;
-  margin: 10px auto;
-  width: 40%;
-  align-self: center;
-  background: #db6435;
-  cursor: pointer;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  text-transform: uppercase;
+img {
+  width: 100%;
 }
 
 /* HERO SECTION */
@@ -115,7 +106,7 @@ nav li a:hover {
   width: 325px;
 }
 
-/* Products */
+/* Products Section */
 .products {
   height: 400px;
 }
@@ -156,6 +147,22 @@ nav li a:hover {
   width: 100%;
   position: relative;
   bottom: 90px;
+}
+
+.arrow {
+  width: 20px;
+  position: absolute;
+  bottom: 25px;
+}
+
+.right-arrow {
+  right: 0;
+  margin-right: 20px;
+}
+
+.left-arrow {
+  left: 0;
+  margin-left: 20px;
 }
 
 /* ABOUT */
