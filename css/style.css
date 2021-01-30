@@ -122,47 +122,75 @@ nav li a:hover {
   margin-right: 15px;
 }
 
-.products__body {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+.products__title {
+  margin: 120px;
 }
 
 .product {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding: 20px;
+  margin: 10px;
   width: 25%;
+  height: 140px;
+  background: #cbe8f8;
+  font-size: 10px;
+  letter-spacing: 0.5px;
 }
 
-.product div {
-  background: #cbe8f8;
-  padding: 30px;
+.products-list {
+  max-width: 90%;
+  margin: auto;
 }
 
 .product img {
-  width: 100%;
+  width: 106%;
   position: relative;
-  bottom: 90px;
+  bottom: 15px;
+}
+
+.product__price {
+  margin-top: 10px;
+  color: #db6435;
+  font-weight: 700;
+}
+
+.product.middle-product {
+  height: 200px;
+}
+
+.product.middle-product button {
+  color: #fff;
+  font-size: 8px;
+  margin: 10px auto;
+  letter-spacing: 1px;
+  width: 70%;
+  align-self: center;
+  background: #db6435;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
 }
 
 .arrow {
-  width: 20px;
+  width: 10px;
   position: absolute;
-  bottom: 25px;
+  bottom: 100px;
 }
 
 .right-arrow {
   right: 0;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .left-arrow {
   left: 0;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 /* ABOUT */
