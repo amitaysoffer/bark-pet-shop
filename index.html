@@ -5,32 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/utilities.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
     <title>Bark Pet Shop</title>
   </head>
   <body id="home">
     <!-- Hero Section -->
     <header class="hero">
       <div class="navbar">
-        <h1 class="logo">BARK</h1>
+        <h1 class="navbar__logo">
+          B<img src="/images/icons/shape-paw.svg" alt="paw" />RK
+        </h1>
         <nav>
           <ul>
-            <li><a href="#active">Active</a></li>
-            <li><a href="#products">products</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#deals">deals</a></li>
+            <li><a href="#">Active</a></li>
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
           </ul>
         </nav>
       </div>
       <div class="content-container">
-        <img src="/images/png/dog-hero@2x.png" alt="hero dog" />
+        <img src="/images/png/dog-hero@2x.png" alt="hero-dog" />
         <div class="content">
           <h3>Vestibulum Fusce Aenean Dolor</h3>
-          <button class="btn">sign up</button>
+          <button class="btn" id="myBtn">sign up</button>
+        </div>
+      </div>
+
+      <!-- Modal Popup -->
+      <div id="myModal" class="modal">
+        <div class="modal-container">
+          <span class="close">&times;</span>
+          <div class="modal__left">
+            <img src="/images/png/dog-popup@2x.png" alt="dog-popup" />
+          </div>
+          <div class="modal__right">
+            <h3>Newsletter Sign Up</h3>
+            <form action="">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email Address" />
+              <p>Donec id elit non mi parta gravida at eget metus.</p>
+              <button class="btn">Sign Up</button>
+            </form>
+          </div>
         </div>
       </div>
     </header>
     <!-- Products Section -->
-    <section href="products" id="products" class="products">
+    <section class="products">
       <div class="products__title">
         <h3>
           <img
@@ -78,7 +100,7 @@
       </div>
     </section>
     <!-- About Section -->
-    <section href="about" id="about" class="about">
+    <section class="about">
       <div class="about__img flex-center">
         <img src="/images/png/dog.png" alt="dog" />
         <img class="blob" src="/images/icons/shape-blob.svg" alt="blob" />
@@ -96,7 +118,7 @@
       </div>
     </section>
     <!-- Jumbotron Section -->
-    <section id="jumbotron" class="jumbotron flex-center">
+    <section class="jumbotron flex-center">
       <div class="jumbotron__content">
         <img
           class="jumbotron__logo"
@@ -110,11 +132,11 @@
       </div>
     </section>
     <footer id="footer" class="footer">
-      <div class="top-footer__logo">
+      <h1 class="top-footer__logo">
         B
-        <span><img src="./images/icons/shape-paw.svg" alt="shape paw" /></span>
+        <img src="./images/icons/shape-paw.svg" alt="paw" />
         RK
-      </div>
+      </h1>
       <div class="footer-container">
         <div class="top-footer">
           <div class="top-footer__column">
@@ -171,5 +193,7 @@
         </div>
       </div>
     </footer>
+    <!-- Scripts -->
+    <script src="main.js"></script>
   </body>
 </html>
